@@ -1,0 +1,113 @@
+/*
+Google font
+*/
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap");
+
+/* font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif; */
+
+/*
+Basic css
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  tx-color: #707070;
+  bg-color: #b68c5a;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  color: #111111;
+}
+
+.header-area .nav-link {
+  font-weight: 600;
+  color: #707070;
+}
+
+.header-area .nav-item:last-child .nav-link {
+  background-color: #b68c5a;
+  margin-left: 95px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.header-area .nav-item:last-child:hover .nav-link {
+  background-color: #707070;
+  color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-area .nav-item:last-child .nav-link {
+    margin-left: 2px;
+    text-align: center;
+  }
+}
+
+/*hero-area css */
+.hero-area {
+  background: linear-gradient(0deg, rgba(1, 0, 5, 0.521), rgba(0, 0, 0, 0.418)),
+    url("image/hero-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.hero-area {
+  width: 60%;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-content {
+    width: 100%;
+  }
+}
+
+.btn-my-style {
+  background: #b68c5a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 15px 25px;
+}
+
+.btn-my-style:hover {
+  background: #707070;
+  color: #fff;
+}
+
+/* carousel-item-css */
+.carousel-inner img {
+  width: 150px;
+}
+.carousel-item-1 {
+  background: linear-gradient(0deg, rgba(1, 0, 5, 0.705), rgba(0, 0, 0, 0.541)),
+    url("image/sl-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.carousel-item-2 {
+  background: linear-gradient(0deg, rgba(1, 0, 5, 0.705), rgba(0, 0, 0, 0.541)),
+    url("image/sl-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.carousel-item-3 {
+  background: linear-gradient(0deg, rgba(1, 0, 5, 0.705), rgba(0, 0, 0, 0.541)),
+    url("image/sl-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
